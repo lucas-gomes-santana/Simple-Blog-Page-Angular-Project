@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-secondary-cards',
@@ -8,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class SecondaryCardsComponent {
 
+  @Input()
+  cardImage:string = "";
+
+  @Input()
+  cardTitle:string = "";
+
+  @Input()
+  cardText:string = "";
 }
