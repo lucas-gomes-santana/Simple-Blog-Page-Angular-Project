@@ -1,0 +1,15 @@
+.container-top-menu{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  ul{
+    display: flex;
+    gap: 150px;
+
+    li{
+      list-style-type: none;
+    }
+  }
+}

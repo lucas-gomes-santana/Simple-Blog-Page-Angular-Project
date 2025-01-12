@@ -1,0 +1,27 @@
+.container-small-cards{
+  display: flex;
+  flex-direction: row;
+  width: 750px;
+  height: auto;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  .small-card-image{
+    margin-right: 25px;
+
+    img{
+      width: 370px;
+      height: 220px;
+    }
+  }
+
+  .small-cards-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h3{
+      font-size: 1.4rem;
+    }
+  }
+}
