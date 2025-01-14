@@ -4,9 +4,9 @@
     <img src="{{cardImage}}" alt="Imagem do Blog">
   </div>
 
-  <a href="#">
+  <a [routerLink]="['/content',id]">
     <div class="big-card-title">
-      <h2><a href="#">{{cardTitle}}</a></h2>
+      <h2><a [routerLink]="['/content',id]" >{{cardTitle}}</a></h2>
     </div>
   </a>
 
